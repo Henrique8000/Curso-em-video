@@ -1,28 +1,31 @@
-# Ler um número inteiro qualquer e mostrar na tela sua tabuada
+#Faça um programa que leia um número inteiro qualquer e
+#mostre na tela a sua tabuada.
 
-num = int(input('Digite um número inteiro: '))
-tabuada0 = num * 0
-tabuada1 = num * 1
-tabuada2 = num * 2
-tabuada3 = num * 3
-tabuada4 = num * 4
-tabuada5 = num * 5
-tabuada6 = num * 6
-tabuada7 = num * 7
-tabuada8 = num * 8
-tabuada9 = num * 9
-tabuada10 = num * 10
+numero = int(input("Digíte um número inteiro: "))
+print(10 * '-')
+#print(f"A tabuada do '{numero}' é:\n")
+#print(f'{numero} x 0 = {numero*0}')
+#print(f'{numero} x 1 = {numero*1}')
+#print(f'{numero} x 2 = {numero*2}')
+#print(f'{numero} x 3 = {numero*3}')
+#print(f'{numero} x 4 = {numero*4}')
+#print(f'{numero} x 5 = {numero*5}')
+#print(f'{numero} x 6 = {numero*6}')
+#print(f'{numero} x 7 = {numero*7}')
+#print(f'{numero} x 8 = {numero*8}')
+#print(f'{numero} x 9 = {numero*9}')
+#print(f'{numero} x 10 = {numero*10}')
 
-print('_' * 12)
-print(f'{num} x {0:2} = {tabuada0}')
-print(f'{num} x {1:2} = {tabuada1}')
-print(f'{num} x {2:2} = {tabuada2}')
-print(f'{num} x {3:2} = {tabuada3}')
-print(f'{num} x {4:2} = {tabuada4}')
-print(f'{num} x {5:2} = {tabuada5}')
-print(f'{num} x {6:2} = {tabuada6}')
-print(f'{num} x {7:2} = {tabuada7}')
-print(f'{num} x {8:2} = {tabuada8}')
-print(f'{num} x {9:2} = {tabuada9} ')
-print(f'{num} x 10 = {tabuada10}')
-print('_' * 12)
+#Tabuada feita com laço de reptição 'for':
+#i = 0  (não é necessário)
+
+#for i in range(i, 11):
+#    mult = i * numero
+#    print(f'{numero} x {i} = {mult}')
+
+#Tabuada feita com laço 'for' 2.0
+for i in range(0, 11):
+    print(f'{numero} x {i} = {i * numero}')
+
+print(10 * '-')
+print("\nFIM DO PROGRAMA!")
