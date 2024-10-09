@@ -7,6 +7,7 @@ Install(libs)
 '''random, math, pygame'''
 
 ANOTAÇÕES:
+
 -~-~-~-~-~-~-~-~- Tipos primitivos ~-~-~-~-~-~-~-~-~-
 
   int()  --> Para números inteiros ------------ 17, 21, 35, 42
