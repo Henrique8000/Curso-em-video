@@ -7,10 +7,7 @@ from math import trunc
 
 num = float(input('Digite um número: '))
 
-#a = math.floor(num)
-
 print(f'O número {num} tem a parte Inteira {trunc(num)}')
-
 
 '''
 num = float(input('Digite um número: '))

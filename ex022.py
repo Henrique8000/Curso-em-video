@@ -5,11 +5,9 @@
 
 nome = input('Insira o seu nome completo:')
 
-print(f'Em maiúsculas: {nome.upper()}.Em minúsculas: {nome.lower()}')
+print(f'\nEm maiúsculas: {nome.upper()} .Em minúsculas: {nome.lower()}\n')
 
-print(len(nome.replace(' ', '')))
+print(f'Quantidade de letras ao todo (sem o espaço): {len(nome.replace(" ", ""))}\n')
 
 dividido = nome.split()
-print(len(dividido[0]))
-'''for i in dividido:
-    print(len(i), i)'''
+print(f'Quantidade de letras do primeiro nome: {len(dividido[0])}')
