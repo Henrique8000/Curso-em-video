@@ -233,8 +233,10 @@ text                    background
 97    white      branco     107
 
 -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+print(f'{variavel:b}')
 
 a opção :b dentro das {} exibe o valor da variável num já convertido em binário, sem o 0b no início.
+
 :b - binário
 :o - octal
 :x - hexadecimal com letras minúsculas
